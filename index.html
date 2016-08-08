@@ -4,12 +4,32 @@
 <html lang="en-us">
   <head>
     {% include resources.html %}
+    <style>
+      @media (min-width: 992px)
+      .jumbotron > div > .col-md-3 {
+        padding-left: 10vw;
+      }
+    </style>
   </head>
   <body>
     {% include nav-chn.html %}
-    <div style="height:100vh">
-      
+
+    <div class="jumbotron">
+      <div class="container" style="text-align: center;">
+        <div class="col-md-3" style="padding-left: 10vw;">
+          <img src="/zhu-obgyn/images/zhu-ling.JPG" style="height: 35vh;">
+        </div>
+        <div class="col-md-9">
+          <h1>朱玲妇产科诊所</h1>
+          <p>
+            <strong>地址</strong>: 纽约布碌仑58街730号<br>
+            <strong>电话</strong>: （347）3820338<br>
+            <strong>获得妇女健康知识，请加入我们的微信</strong>： lingzhu1<br>
+          </p>
+        </div>
+      </div>
     </div>
+
     {% include footer-chn.html %}
   </body>
 </html>
