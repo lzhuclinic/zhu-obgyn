@@ -13,7 +13,7 @@
   background-color: #0d4c70;
   color: #999;
 }
-.footer > nav {
+.footer > div > nav {
   margin-top: 30px;
 }
 .footer nav > ul {
