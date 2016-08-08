@@ -10,15 +10,21 @@
           padding-left: 10vw;
         }
       }
+      .jumbotron > .container {
+        text-align: center;
+      }
+      .jumbotron > .container > .col-md-3 > img {
+        height: 35vh;
+      }
     </style>
   </head>
   <body>
     {% include nav-chn.html %}
 
     <div class="jumbotron">
-      <div class="container" style="text-align: center;">
+      <div class="container">
         <div class="col-md-3">
-          <img src="/zhu-obgyn/images/zhu-ling.JPG" style="height: 35vh;">
+          <img src="/zhu-obgyn/images/zhu-ling.JPG">
         </div>
         <div class="col-md-9">
           <h1>朱玲妇产科诊所</h1>
@@ -29,6 +35,14 @@
           </p>
         </div>
       </div>
+    </div>
+
+    <div class="container">
+      <h1></h1>
+      <div><h2></h2></div>
+      <p></p>
+      <div><h2></h2></div>
+      <p></p>
     </div>
 
     {% include footer-chn.html %}
