@@ -4,12 +4,32 @@
 <html lang="en-us">
   <head>
     {% include resources.html %}
+    <style>
+      .main-content > div {
+        color: white;
+        margin-top: 10px;
+      }
+      .main-content > p {
+        font-size: 19px;
+      }
+      .main-content {
+        margin-bottom: 30px;
+      }
+    </style>
   </head>
   <body>
     {% include nav-chn.html %}
-    <div style="height:100vh">
-      
+    {% include jumbotron-chn.html %}
+    
+    <div class="container main-content">
+      <div style="background-color:#00b78d;"><h2>医生介绍</h2></div>
+      <p>纽约布碌仑玛摩丽医院主治医师，美国妇产专科特考文凭，美国妇产科学院院士，中国最佳北京协和医科大学医学博士，美国著名凯斯西储大学生理学博士，中国北京协和医院妇产科前主治医生，具有10余年临床经验，医术精湛。</p>
+      <div style="background-color:#00b78d;"><h2>服务特点</h2></div>
+      <p>最短的候诊时间，细致的最佳服务，朱玲医生亲自接生，咨询。</p>
+      <div style="background-color:#00b78d;"><h2>服务项目</h2></div>
+      <p>提供全方位妇科，产科和计划生育服务。妇科常规检查，妇科炎症，子宫肌瘤，宫颈疾病，卵巢囊肿，月经不调，不孕，习惯性流产等。普通产科接生，高危产科诊治，包括妊娠糖尿病，高血压，多胎妊娠，胎盘异常，习惯性早产等。上环，取环，药物流产，无痛手术流产，孕前检查和优生咨询等。</p>
     </div>
+
     {% include footer-chn.html %}
   </body>
 </html>
