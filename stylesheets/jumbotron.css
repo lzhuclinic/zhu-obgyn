@@ -1,0 +1,11 @@
+      @media (min-width: 992px) {
+        .jumbotron > div > .col-md-3 {
+          padding-left: 10vw;
+        }
+      }
+      .jumbotron > .container {
+        text-align: center;
+      }
+      .jumbotron > .container > .col-md-3 > img {
+        height: 35vh;
+      }
