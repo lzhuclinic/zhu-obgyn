@@ -1,18 +1,3 @@
-      #banner {
-        height: 19vh;
-        background-color: #1367a7;
-        padding-left: 14vw;
-        padding-top: 2vh;
-      }
-      #banner > div {
-        height: 71%;
-        background:url(/zhu-obgyn/images/logo.jpg) no-repeat;
-      }
-      #banner > div > a {
-        display: block;
-        height: 100%;
-      }
-      
       .nav > .nav-li {
         padding-left:4px;
         padding-right:4px;
