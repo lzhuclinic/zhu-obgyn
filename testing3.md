@@ -1,6 +1,6 @@
 ---
 layout: default
-title: HomePage
+title: 主页
 ---
 # Header
 paragraph
